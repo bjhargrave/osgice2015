@@ -1,0 +1,12 @@
+#
+# EXAMPLE	BUNDLE 
+#
+
+Bundle-Description: \
+	The provider bundle for Example.
+
+Export-Package:  \
+	example.api
+
+Private-Package:  \
+	example.provider

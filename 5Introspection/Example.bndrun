@@ -1,0 +1,14 @@
+#
+# EXAMPLE	LAUNCH SPECIFICATION 
+#
+
+
+Bundle-Version:				1.0.0.${tstamp}
+Bundle-SymbolicName:		${p}.launch
+JPM-Command:				example
+
+self: 5Introspection
+-runrequires: \
+	osgi.identity;filter:='(osgi.identity=${self}.command)'
+
+-runbundles: ${error;You must first resolve this bndrun file before you can run it}

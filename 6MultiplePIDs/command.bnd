@@ -1,0 +1,9 @@
+#
+# EXAMPLE GOGO COMMAND BUNDLE (example) 
+#
+
+Bundle-Description: \
+	Provides a command to the Gogo shell.
+
+Private-Package:  \
+	example.command
