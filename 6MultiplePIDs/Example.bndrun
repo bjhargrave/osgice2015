@@ -13,8 +13,8 @@ self: 6MultiplePIDs
 	osgi.identity;filter:='(osgi.identity=${self}.command)'
 
 -runbundles: \
-	4TypeSafeConfigWithMetatype.command;version=snapshot,\
-	4TypeSafeConfigWithMetatype.provider;version=snapshot,\
+	6MultiplePIDs.command;version=snapshot,\
+	6MultiplePIDs.provider;version=snapshot,\
 	org.apache.felix.configadmin;version='[1.8.6,1.8.7)',\
 	org.apache.felix.log;version='[1.0.1,1.0.2)',\
 	org.apache.felix.scr;version='[2.0.0,2.0.1)',\
